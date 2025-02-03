@@ -1,0 +1,23 @@
+# ManhuntCore Configuration
+
+# Hunter starting gear
+hunter-gear:
+  - STONE_SWORD
+  - COMPASS
+  - COOKED_BEEF:16
+
+# Time in seconds before the game starts after using /manhunt start
+countdown-timer: 10
+
+# How often to update the compass (in ticks, 20 ticks = 1 second)
+compass-update-interval: 20
+
+# Whether to put eliminated players in spectator mode
+spectator-mode-on-death: true
+
+# World settings
+world:
+  # Whether to generate a new world for each game
+  generate-new: false
+  # Default world name to use if not generating new worlds
+  default-name: "world" 

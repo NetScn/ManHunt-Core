@@ -1,0 +1,39 @@
+name: ManhuntCore
+version: '${project.version}'
+main: com.koopa.manhuntcore.ManhuntCore
+api-version: '1.20'
+author: Koopa
+description: A Minecraft Manhunt plugin with advanced features
+commands:
+  manhunt:
+    description: Main command for the Manhunt plugin
+    usage: /<command> <start|setspawn|addhunter|addspeedrunner>
+
+permissions:
+  manhunt.admin:
+    description: Allows access to all manhunt commands
+    default: op
+  manhunt.help:
+    description: Allows using the help command
+    default: true
+  manhunt.credits:
+    description: Allows viewing plugin credits
+    default: true
+  manhunt.start:
+    description: Allows starting the game
+    default: op
+  manhunt.setspawn:
+    description: Allows setting the spawn point
+    default: op
+  manhunt.addhunter:
+    description: Allows adding hunters
+    default: op
+  manhunt.addspeedrunner:
+    description: Allows setting the speedrunner
+    default: op
+  manhunt.setup:
+    description: Allows access to the setup GUI
+    default: op
+  manhunt.debug:
+    description: Allows access to debug commands
+    default: op 
