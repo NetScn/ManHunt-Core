@@ -1,2 +1,2 @@
-# Manhunt-Core
-🎯 A powerful Minecraft Manhunt plugin featuring real-time compass tracking, custom loadouts, and advanced game controls. Inspired by Dream's Manhunt series.
+# 猎人游戏核心
+这个插件是我Fork其他外国兄弟的，感谢你。
